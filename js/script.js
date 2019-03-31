@@ -1,3 +1,7 @@
+var doCoolStuff = function () {
+	document.getElementByID('cool').className = 'cool red';
+}
+
 var sayMyName = function(name){
 	alert('My name is: '+name);
 }
