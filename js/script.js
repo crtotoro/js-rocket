@@ -1,5 +1,12 @@
+// function to change colors on the click me button.
 var doCoolStuff = function () {
-	document.getElementByID('cool').className = 'cool red';
+	var currentClassName = document.getElementById('cool').className;
+	// changing class name
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
 }
 
 var sayMyName = function(name){
